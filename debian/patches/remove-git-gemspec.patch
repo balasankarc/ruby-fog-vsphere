@@ -1,0 +1,16 @@
+Description: Remove use of git from gemspec
+Author: Balasankar C <balasankarc@autistici.org>
+Last-Update: 2016-01-08
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/fog-vsphere.gemspec
++++ b/fog-vsphere.gemspec
+@@ -14,7 +14,7 @@
+   spec.homepage      = 'https://github.com/fog/fog-vsphere'
+   spec.license       = 'MIT'
+ 
+-  spec.files         = `git ls-files -z`.split("\x0")
++  # spec.files         = `git ls-files -z`.split("\x0")
+   spec.test_files    = spec.files.grep(%r{^tests\/})
+ 
+   spec.require_paths = ['lib']
