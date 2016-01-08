@@ -1,5 +1,5 @@
-ruby-fog-vsphere (0.4.0-1) UNRELEASED; urgency=medium
+ruby-fog-vsphere (0.4.0-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #810305)
 
- -- Balasankar C <balasankarc@autistici.org>  Fri, 08 Jan 2016 11:40:49 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Wed, 30 Dec 2015 13:19:32 +0530

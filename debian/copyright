@@ -3,33 +3,93 @@ Upstream-Name: fog-vsphere
 Source: https://github.com/fog/fog-vsphere
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
-License: GPL-2+ (FIXME)
+Copyright: 2014-2015 Ahmed Elsabbahy <aelsabbahy@promnetwork.com>
+           2014-2015 Alan Sebastian <asebastian2@gmail.com>
+           2014-2015 Carl Caum <carl@carlcaum.com>
+           2014-2015 Carlos Sanchez <csanchez@maestrodev.com>
+           2014-2015 Chris Thompson <chris.thompson@govdelivery.com>
+           2014-2015 Chris Thompson <teaforthecat@gmail.com>
+           2014-2015 Christopher Oliver <coliver@datapipe.com>
+           2014-2015 Cyrus Team <cyrusteam@cyruslists.com>
+           2014-2015 Darren Foo <stonith@users.noreply.github.com>
+           2014-2015 Dominic Cleal <dcleal@redhat.com>
+           2014-2015 Eric Stonfer <ericstonfer@yahoo.com>
+           2014-2015 Ewoud Kohl van Wijngaarden <ewoud@kohlvanwijngaarden.nl>
+           2014-2015 Francois Herbert <F.Herbert@massey.ac.nz>
+           2014-2015 Francois Herbert <fherbert@oss.co.nz>
+           2014-2015 Francois Herbert <francois@herbert.org.nz>
+           2014-2015 Ivan Nečas <inecas@redhat.com>
+           2014-2015 Ivo Reznicek <ireznice@googlemail.com>
+           2014-2015 J.R. Garcia <jr@garciaole.com>
+           2014-2015 J.R. Garcia <jrg@vmware.com>
+           2014-2015 James Herdman <james.herdman@me.com>
+           2014-2015 Jeff McCune <jeff@puppetlabs.com>
+           2014-2015 Justin Clayton <justin.clayton@gettyimages.com>
+           2014-2015 Justin Pratt <github@justinpratt.me>
+           2014-2015 Justin Pratt <jpratt@liveramp.com>
+           2014-2015 Karan Misra <karan@erodov.com>
+           2014-2015 Kelsey Hightower <kelsey@puppetlabs.com>
+           2014-2015 Kevin Menard <kevin@nirvdrum.com>
+           2014-2015 Kevin Menard <nirvdrum@gmail.com>
+           2014-2015 Lance Ivy <lance@cainlevy.net>
+           2014-2015 Lukas Zapletal
+           2014-2015 Marc Grimme <grimme@atix.de>
+           2014-2015 Marc Grimme <marc.grimme@googlemail.com>
+           2014-2015 Martin Matuska <martin@matuska.org>
+           2014-2015 Matt Darby <matt.darby@rackspace.com>
+           2014-2015 Matthew Black <matthew.black@sap.com>
+           2014-2015 Matthew Black <matthewblack@successfactors.com>
+           2014-2015 Michael Moll <kvedulv@kvedulv.de>
+           2014-2015 Mick Pollard <aussielunix@gmail.com>
+           2014-2015 Ming Jin <skyairmj@gmail.com>
+           2014-2015 Nick Huanca <nhuanca@pingidentity.com>
+           2014-2015 Nick Huanca <nick.huanca@gmail.com>
+           2014-2015 Nick Huanuca <nhuanca@pingidentity.com>
+           2014-2015 Ohad Levy <ohadlevy@gmail.com>
+           2014-2015 Ohad Levy <ohadlevy@redhat.com>
+           2014-2015 Oscar Elfving <sofam84@gmail.com>
+           2014-2015 Paul Thornthwaite <paul@brightbox.co.uk>
+           2014-2015 Paul Thornthwaite <tokengeek@gmail.com>
+           2014-2015 Paulo Henrique Lopes Ribeiro <plribeiro3000@gmail.com>
+           2014-2015 Rich Daley <rdaley@williamhill.co.uk>
+           2014-2015 Rich Lane <rlane@club.cc.cmu.edu>
+           2014-2015 Samuel Keeley <samuel@dropbox.com>
+           2014-2015 Shlomi Zadok <shlomi@ben-hanna.com>
+           2014-2015 Simon Josi <me@yokto.net>
+           2014-2015 Tejas Ravindra Mandke <tejas@identified.com>
+           2014-2015 Timo Goebel <timo.goebel@dm.de>
+           2014-2015 Timur Alperovich <timur@maginatics.com>
+           2014-2015 Wesley Beary
+           2014-2015 Wesley Beary <geemus@gmail.com>
+           2014-2015 Xavier Fontrodona <xavier.fontrodona@safelayer.com>
+           2014-2015 alan <asebastian2@gmail.com>
+           2014-2015 endzyme <nick.huanca@gmail.com>
+           2014-2015 geemus <geemus@gmail.com>
+           2014-2015 karmab <karimboumedhel@gmail.com>
+           2014-2015 slivik <jakub.sliva@gmail.com>
+           2014-2015 tipt0e <topo-2@charter.net>
+License: Expat
 
 Files: debian/*
-Copyright: 2016 Balasankar C <balasankarc@autistici.org>
-License: GPL-2+ (FIXME)
+Copyright: 2015 Balasankar C <balasankarc@autistici.org>
+License: Expat
 Comment: the Debian packaging is licensed under the same terms as the original package.
 
-License: GPL-2+ (FIXME)
- This program is free software; you can redistribute it
- and/or modify it under the terms of the GNU General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later
- version.
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
  .
- This program is distributed in the hope that it will be
- useful, but WITHOUT ANY WARRANTY; without even the implied
- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
- PURPOSE.  See the GNU General Public License for more
- details.
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
  .
- You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
- .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
