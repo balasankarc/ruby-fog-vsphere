@@ -1,0 +1,5 @@
+ruby-fog-vsphere (0.4.0-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: #nnnn)
+
+ -- Balasankar C <balasankarc@autistici.org>  Fri, 08 Jan 2016 11:40:49 +0530

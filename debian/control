@@ -1,0 +1,26 @@
+Source: ruby-fog-vsphere
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 9~),
+               gem2deb,
+               ruby-fog-core,
+               ruby-rbvmomi (>= 1.8)
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-fog-vsphere.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-fog-vsphere.git
+Homepage: https://github.com/fog/fog-vsphere
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-fog-vsphere
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-fog-core,
+         ruby-rbvmomi (>= 1.8),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Module for the 'fog' gem to support VMware vSphere.
+ This library can be used as a module for `fog` or as standalone provider to use vSphere in applications.
